@@ -1,4 +1,5 @@
 npm-debug*
+build
 node_modules
 coverage
 .idea/
