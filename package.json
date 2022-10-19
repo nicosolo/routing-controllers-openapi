@@ -19,7 +19,6 @@
     "format": "prettier --write {src,__tests__}/**/*.ts",
     "test:format": "prettier --check {src,__tests__}/**/*.ts",
     "test:lint": "tslint --project . src/**/*.ts",
-    "prepare": "npm i  && npm run build",
     "send-coverage": "codecov -f coverage/*.json",
     "test": "jest --coverage",
     "test:watch": "jest --watch"
